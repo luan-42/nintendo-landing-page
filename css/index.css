@@ -254,12 +254,22 @@ header {
 }
 /* A nota de avaliação (score) tem padding de 15px, fonte grande (2rem), cor vermelha e fundo branco. */
 
+.banner .left .features .pricing .buy {
+    width: 74.48px;
+    height: 67px;
+    background: var(--primary);
+    background-image: url('../images/add_circle.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* Link de compra possui um background vermelho e ícone add_circle */
+
 .banner .left .features .content {
     margin-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
 }
 /* O conteúdo de recursos tem uma margem à esquerda de 20px e é exibido em uma coluna flexível. */
 
